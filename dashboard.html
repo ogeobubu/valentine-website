@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>ValeMine - Dashboard</title>
+  </head>
+  <body>
+    <section class="dashboard">
+      <div class="left-nav">
+        <i class="fa fa-tachometer"></i><a href="#">Dashboard</a>
+        <i class="fa fa-user"></i><a href="#">Profile</a>
+        <i class="fa fa-user-plus"></i><a href="#">Referral</a>
+        <i class="fa fa-money"></i><a href="#">Cash</a>
+        <i class="fa fa-window-close"></i><a href="#" id="signout">Sign Out</a>
+      </div>
+      <div class="content-dashboard">
+        <h1>Welcome <span id="username"></span></h1>
+        <p>Kindly refresh the page to get random quote</p>
+        <div class="fetchMessage">
+          <p id="fetchMessage"></p>
+        </div>
+      </div>
+    </section>
+    <!-- <a href="https://storyset.com/web">Illustration by Freepik Storyset</a> -->
+    <script src="./scripts/dashboard.js"></script>
+  </body>
+</html>
