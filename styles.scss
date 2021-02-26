@@ -66,6 +66,18 @@ header {
       }
     }
   }
+
+  @media screen and (max-width: 865px) {
+    .custom-shape-divider-bottom-1612854965 {
+      &::after {
+        background: none;
+      }
+    }
+
+    svg {
+      visibility: hidden;
+    }
+  }
 }
 
 .random-shape {
@@ -291,7 +303,7 @@ header {
       margin-top: 3rem;
     }
     img {
-      width: 60%;
+      width: 35%;
     }
   }
 }
