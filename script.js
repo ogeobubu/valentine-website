@@ -45,6 +45,14 @@ myForm.addEventListener("submit", (e) => {
       msg.classList.remove("error");
       msg.innerHTML = "";
     }, 3000);
+  } else if (user.password.length < 6) {
+    msg.classList.add("error");
+    msg.innerHTML = "Password must contain at least  6 characters.";
+
+    setTimeout(() => {
+      msg.classList.remove("error");
+      msg.innerHTML = "";
+    }, 3000);
   } else {
     msg.classList.add("success");
     msg.innerHTML = "Successfully created an account!";
